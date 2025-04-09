@@ -14,16 +14,16 @@ console.log(typeof price);
 // 3. Boolean:true, false
 
 
-// Practice-1
+// Practice-1  
 
 const lastPrice = 666;
 console.log( typeof lastPrice);
 
-// Practice-2
+// 
 const learning = true;
 console.log(typeof learning);
 
-// Practice-3
+// Practice-3 
 const megaCity = "Dhaka";
 console.log(typeof megaCity);
 
@@ -61,22 +61,22 @@ console.log(balance);
 // console.log(name);
 
 
-// Practice-1 
+// Practice-1 তোর বর্তমান বয়স age নামে একটা ভেরিয়েবলে রাখ। কনসোল প্রিন্ট কর। তারপর age ভেরিয়েবলে নতুন নাম সেট কর এবং আবার কনসোল প্রিন্ট কর।
 let age = 35;
 age = 34;
 console.log(age);
 
-// Practice-2
+// Practice-2 Practice-2 তোর পকেটে এখন 500 টাকা আছে, pocketMoney নামে একটা ভেরিয়েবলে রাখ। পরে pocketMoney-এর মান 150 সেট কর এবং কনসোল প্রিন্ট কর।
 let pocketMoney = 500;
 pocketMoney = 150;
 console.log(pocketMoney);
 
-// Practice-3
+// Practice-3 তুই 4 ঘন্টা পড়াশোনা করার পরিকল্পনা করেছিস, studyTime নামে একটা ভেরিয়েবলে রাখ। পরে studyTime-এর মান আপডেট করে তুই আসলেই আজকে যত ঘন্টা পড়াশোনা করছস, সেটা সেট কর। মান যদি 0 হয়, তাহলে 0-ই সেট কর এবং কনসোলে দেখ।
 let studyTime = 4;
 studyTime = 0;
 console.log(studyTime);
 
-// Practice-4
+// Practice-4 তোর মোট 3 জন বন্ধু আছে, friendscount নামে একটা ভেরিয়েবলে এই সংখ্যা রাখ। পরে তোর 2 জন ফ্রেন্ড তোকে ছেড়ে চলে গেল। এখন friendscount-এর মান আপডেট কর এবং কনসোলে সেটার আপডেট দেখ।
 let friendscount = 3;
 friendscount = 1;
 console.log(friendscount);
