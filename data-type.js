@@ -170,46 +170,102 @@ let pay = 655;
 
 // About using variable "name"******
 
-1. ভেরিয়েবলের নাম হিসেবে javaScript  এর  কি-ওয়ার্ড ব্যবহার করা যাবে না। যেমন: "const", "false" etc
+// 1. ভেরিয়েবলের নাম হিসেবে javaScript  এর  কি-ওয়ার্ড ব্যবহার করা যাবে না। যেমন: "const", "false" etc
 
-const false = 45; // wrong
-const const = 50; // wrong
+// const false = 45; // wrong
+// const const = 50; // wrong
 
-2. ভেরিয়েবলের নামের মধ্যে  Space বা gap ব্যবহার করা যাবে না। পুরো নাম একসাথে লিখতে হবে।
+// 2. ভেরিয়েবলের নামের মধ্যে  Space বা gap ব্যবহার করা যাবে না। পুরো নাম একসাথে লিখতে হবে।
 
-const is happy = false; // wrong
-const isHappy = true; //Right
+// const is happy = false; // wrong
+// const isHappy = true; //Right
 
-3. ভেরিয়েবলের নামের মধ্যে Quotation '' ব্যবহার করা যাবে না।
+// 3. ভেরিয়েবলের নামের মধ্যে Quotation '' ব্যবহার করা যাবে না।
 
-const "address" = xyz; //wrong
+// const "address" = xyz; //wrong
 
-4. ভেরিয়েবলের নাম সংখ্যা দিয়ে শুরু করা যাবে না। তবে নামের প্রথম অক্ষর ছাড়া যেকোনো জায়গায় সংখ্যা ব্যবহার করা যাবে।
+// 4. ভেরিয়েবলের নাম সংখ্যা দিয়ে শুরু করা যাবে না। তবে নামের প্রথম অক্ষর ছাড়া যেকোনো জায়গায় সংখ্যা ব্যবহার করা যাবে।
 
-const 3money = 45; // Wrong
-const money3 = 45; //Right
-const mon3ey = 45; //Right
+// const 3money = 45; // Wrong
+// const money3 = 45; //Right
+// const mon3ey = 45; //Right
 
-5. এমনকি নামের মধ্যে এক বা একাধিক অক্ষর যদি ইংরেজি ছোট হাতের বা বড় হাতের হয়, তাহলেও কিন্তু আলাদা আলাদা ভেরিয়েবল হিসেবে গণ্য হবে। এইটাকে বলে ভেরিয়েবলের নাম Case sensitive।
+// 5. এমনকি নামের মধ্যে এক বা একাধিক অক্ষর যদি ইংরেজি ছোট হাতের বা বড় হাতের হয়, তাহলেও কিন্তু আলাদা আলাদা ভেরিয়েবল হিসেবে গণ্য হবে। এইটাকে বলে ভেরিয়েবলের নাম Case sensitive।
 
 const address = "xyz";
 const Address = "abc";
 const AddresS = "efg";
 
-6. ভেরিয়েবলের বড় নাম লিখার নিয়ম।
+// 6. ভেরিয়েবলের বড় নাম লিখার নিয়ম।
 
 const mycurrenthomeaddress = "Dhaka"; // not recommended
 const my_current_home_address = "Dhaka"; // (snake case) try ot avoid
 const myCurrentHomeAddress = "Dhaka"; //(camel case) recommended
 
-7. ভেরিয়েবলের নামের মধ্যে কোনো স্পেশাল ক্যারেক্টার ব্যবহার করা যাবে না। শুধু মাত্র (_) আন্ডারস্কোর এবং ($) ডলার সাইন ব্যবহার করা যায়।
-কিন্তু অন্য কোনো ক্যারেক্টার (যেমন: @, #, %, &,*) ব্যবহার করলে দিবে।
+// 7. ভেরিয়েবলের নামের মধ্যে কোনো স্পেশাল ক্যারেক্টার ব্যবহার করা যাবে না। শুধু মাত্র (_) আন্ডারস্কোর এবং ($) ডলার সাইন ব্যবহার করা যায়।
+// কিন্তু অন্য কোনো ক্যারেক্টার (যেমন: @, #, %, &,*) ব্যবহার করলে দিবে।
 
-const my@name = "Rana"; //Wrong
-const price#fish = 150; //wrong
-const user$name = "Masud Rana"; // Right
-const _secretCode =1234; //Right
+// const my@name = "Rana"; //Wrong
+// const price#fish = 150; //wrong
+// const user$name = "Masud Rana"; // Right
+//const _secretCode =1234; //Right
 
+
+// javaScript Keywords ************
+
+/* 
+abstract, boolean, break, byte, case, catch, char, class, const,continue,
+debugger, default, delete, do, double, else, enum, export, extends, false, final, finally, float, for, function, 
+goto,if, implements, import, in, instance of, int, interface, long, native, new, null, 
+package, private, protected, public, return, short, statice, super, switch, synchronized, 
+this, throw, throws, transient, true, try, type of, var, void, volatile, while, with. 
+
+*/
+
+
+// Practice:
+
+// 1. তুই একটা প্রোগ্রাম লিখে দেখ, যেখানে তুই ভেরিয়েবল ডিক্লেয়ার করবি camelCase ব্যবহার করে। ধর, তুই তোর প্রিয় খাবার নামে একটা স্ট্রিং ভেরিয়েবল ডিক্লেয়ার কর। আর সেটার মান দে।
+
+const myFavouriteFood = "Kachchi";
+
+// 2. তুই দেখ, ভেরিয়েবলের নাম case-sensitive কি না। একটা প্রোগ্রাম লিখে দুইটা ভেরিয়েবল ডিক্লেয়ার করবি, একটা নাম ‘city’, আরেকটার নাম ‘City’। প্রথমটার মান ‘Chittagong’ আর দ্বিতীয়টার মান দে ‘Dhaka’।  দিয়ে দুইটা আউটপুট দেখ।
+
+const city = "Chittagong";
+const City = "Dhaka";
+
+console.log(city, City);
+
+//3. তুই  userName নামে একটা ভেরিয়েবল ডিক্লেয়ার করবি এবং তার নাম Johan দে। এবার username নামে আরেকটা ভেরিয়েবল ডিক্লেয়ার করবি এবং তার মান Jovan দে। দুইটা আউটপুট দেখ console.log() দিয়ে।
+
+const userName = "Johan";
+const username = "Jovan";
+console.log(userName, username);
+
+//4. আমার বাসার ঠিকানা নামে ইংরেজিতে একটা ভেরিয়েবল ডিক্লেয়ার করবি। camelCase ব্যবহার করে ভেরিয়েবল ডিক্লেয়ার করবি। তারপর এইটার স্ট্রিং একটা মান সেট করবি।
+
+const myHomeAddress = "Khilgaon";
+
+console.log(myHomeAddress);
+
+//5. সুপার ওভারে কত রান হইছে, সেটার জন্য super নামে একটা ভেরিয়েবল ডিক্লেয়ার কর এবং মান সেট কর। করার পর যে আউটপুট দেখতে পাচ্ছস, সেটা কি ঠিক আছে নাকি কোনো সমস্যা আছে।
+
+// const super = 21;
+
+//console.log(super); //there is a problem because 'super' is a javaScript keyword.so, it does not work.
+
+//6. তুই কোন ক্লাসে পড়স,সেটা লেখার জন্য class নামে একটা ভেরিয়েবল লিখ। তারপর আউটপুটে দেখ, কী দেখায়।
+
+//const class = "ten";
+
+//console.log(class); //there is a problem because 'class' is a javaScript keyword. so, it does not work.
+
+//7. সেকেন্ড পজিশনে কে ব্যাট করবে, সেটার জন্য 2ndPosition নামে একটা ভেরিয়েবল লিখে সেখানে একজন ব্যাটসম্যানের নাম লিখে দে। দেখ আউটপুট দেখায় কি না। যদি সমস্যা করে, তাহলো কী করা লাগে, সেটা কমেন্ট করে ভেরিয়েবলের উপর লিখ।
+
+
+//const 2ndPosition = "Kamal";
+
+//console.log(2ndPosition);   //there is a problem because we can not use any number at the starting of any variable name. but we can use in word like "secondPosition" then it will work. or we use number in the middle or last position of any name.
 
 
 
