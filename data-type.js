@@ -168,6 +168,53 @@ let sendMoney = 1500;
 let pay = 655;
 
 
+// About using variable "name"******
+
+1. ভেরিয়েবলের নাম হিসেবে javaScript  এর  কি-ওয়ার্ড ব্যবহার করা যাবে না। যেমন: "const", "false" etc
+
+const false = 45; // wrong
+const const = 50; // wrong
+
+2. ভেরিয়েবলের নামের মধ্যে  Space বা gap ব্যবহার করা যাবে না। পুরো নাম একসাথে লিখতে হবে।
+
+const is happy = false; // wrong
+const isHappy = true; //Right
+
+3. ভেরিয়েবলের নামের মধ্যে Quotation '' ব্যবহার করা যাবে না।
+
+const "address" = xyz; //wrong
+
+4. ভেরিয়েবলের নাম সংখ্যা দিয়ে শুরু করা যাবে না। তবে নামের প্রথম অক্ষর ছাড়া যেকোনো জায়গায় সংখ্যা ব্যবহার করা যাবে।
+
+const 3money = 45; // Wrong
+const money3 = 45; //Right
+const mon3ey = 45; //Right
+
+5. এমনকি নামের মধ্যে এক বা একাধিক অক্ষর যদি ইংরেজি ছোট হাতের বা বড় হাতের হয়, তাহলেও কিন্তু আলাদা আলাদা ভেরিয়েবল হিসেবে গণ্য হবে। এইটাকে বলে ভেরিয়েবলের নাম Case sensitive।
+
+const address = "xyz";
+const Address = "abc";
+const AddresS = "efg";
+
+6. ভেরিয়েবলের বড় নাম লিখার নিয়ম।
+
+const mycurrenthomeaddress = "Dhaka"; // not recommended
+const my_current_home_address = "Dhaka"; // (snake case) try ot avoid
+const myCurrentHomeAddress = "Dhaka"; //(camel case) recommended
+
+7. ভেরিয়েবলের নামের মধ্যে কোনো স্পেশাল ক্যারেক্টার ব্যবহার করা যাবে না। শুধু মাত্র (_) আন্ডারস্কোর এবং ($) ডলার সাইন ব্যবহার করা যায়।
+কিন্তু অন্য কোনো ক্যারেক্টার (যেমন: @, #, %, &,*) ব্যবহার করলে দিবে।
+
+const my@name = "Rana"; //Wrong
+const price#fish = 150; //wrong
+const user$name = "Masud Rana"; // Right
+const _secretCode =1234; //Right
+
+
+
+
+
+
 
 
 
