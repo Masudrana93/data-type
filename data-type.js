@@ -269,10 +269,86 @@ console.log(myHomeAddress);
 
 
 
+// Parse-----NaN *********
+
+
+// User website-এ সংখ্যা  ইনপুট দিলে সেটা সংখ্যা হিসেবে দেখায় না, স্ট্রিং ডাটা হয়ে যায়। তখন যোগ করতে সমস্যা হয়।
+
+const fatherAge = '50';
+const sonAge = '20';
+const totalAge = fatherAge + sonAge;
+console.log(totalAge); // there is a problem because output showed as a string data like 5020.
+
+// এইটা ঠিক করার জন্য স্ট্রিং ডাটাকে সংখ্যায় রুপান্তর করতে হবে। তাই ভেরিয়েবলের মানের আগে parseInt()  লিখতে হবে এবং ভেরিয়েবলের মানটা () এর ভিতরে রাখতে হবে।
+
+const sugar = parseInt('20');
+console.log(sugar);
+
+const fatherAgE = parseInt('55');
+const sonAgE = parseInt('25');
+const totalAgE = fatherAgE + sonAgE;
+console.log(totalAgE);
+
+//or
+
+const brotherAgE = '22';
+const brotherAgeNumber = parseInt(brotherAgE);
+const sisterAgE = '19';
+const sisterAgeNumber = parseInt(sisterAgE);
+const toTalAgE = brotherAgeNumber + sisterAgeNumber;
+console.log(toTalAgE);
 
 
 
 
+// Practice:
 
+// 1. ধর তুই একটা মজার অংক করছিস। তুই ‘20’ লিখে ফেললি, কিন্তু সেটা স্ট্রিং আকারে। স্ট্রিং থেকে আসল সংখ্যায় কনভার্ট করে তার সাথে 10 যোগ করতে পারবি?
+
+const apple = '20'; //here value 20 is string not a number
+const appleNumber = parseInt(apple); //here converted it to a number
+const tomato = 10;
+console.log(appleNumber + tomato); //so, addition is working here
+
+//2. তোর কাছে একটা ভগ্নাংশ আকারে মান আছে, যেমন: ‘3.14159’। এই মানটা পূর্ণসংখ্যায় রুপান্তর করার জন্য একটা প্রোগ্রাম লিখ।
+
+const komola = '3.14159';
+const komolaIntegerNumber = parseInt('3.14159');
+console.log(komolaIntegerNumber);
+
+//3. তুই ‘premikBoy’ নামের একটা স্ট্রিংকে সংখ্যা বানানোর চেষ্টা কর। দেখ কি আউটপুট দেয়।
+
+const yourName = 'premikBoy';
+const yourNameToNumber = parseInt(yourName);
+console.log(yourNameToNumber);
+
+//4. তুই 3.456 আর 2.789 যোগ করলি। আউটপুটে তুই দশমিকের পর মাত্র 2 ঘর পর্যন্ত দেখতে চাস । কিভাবে দেখাবি? একটা প্রোগ্রাম লিখ।
+
+const firstData = 3.456;
+const lastData = 2.789;
+const totalData = firstData + lastData;
+const totalDataNumber = parseFloat(totalData.toFixed(2));
+console.log(totalDataNumber);
+
+//5. ধর, তুই ‘56.78’ আর ‘12.34’ স্ট্রিং আকারে পাইলি। এখন এই দুইটা যোগ করে কীভাবে আসল সংখ্যা বের করবি? সেটা বের করার একটা প্রোগ্রাম লিখ।
+
+const priceOne = '56.78';
+const priceOneToNo = parseInt('56.78');
+const priceTwo = '12.34';
+const priceTwoToNo = parseInt('12.34');
+const totalPrice = priceOneToNo + priceTwoToNo;
+console.log(totalPrice);
+
+//6. ধর, তোর কাছে ‘10.5678’ আর ‘5.4321’ আছে। তুই আউটপুটে দশমিকের পর 1 ঘর পর্যন্ত দেখতে চাস। সেটা কীভাবে দেখাবি?
+
+const alo = 10.5678;
+const potol = 5.4321;
+const totalBazar = alo + potol;
+console.log(totalBazar.toFixed(1));
+
+//7. এখন ‘42.45689754’-কে দশমিকের পর 3 ঘর পর্যন্ত রাউন্ড কর।
+
+const maan = 42.45689754;
+console.log(maan.toFixed(3));
 
 
